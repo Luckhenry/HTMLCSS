@@ -1,13 +1,18 @@
+body * {
+    /*border: 6px solid red;*/
+}
+
 body {
     margin: 20px;
     font-family: 'Noto Serif', serif;
+    
     
 }
 
 
 ul {
     list-style: none;
-    display: table-footer-group;
+    /*display: table-footer-group;*/
     
     
 }
@@ -16,6 +21,7 @@ ul {
     margin-left: auto;
     margin-right: auto;
     width: 400px;
+    height: 210px;
     display: flex;
     padding: 20px;
     justify-content: space-around;
@@ -28,6 +34,15 @@ ul {
     border-bottom: 10px solid #515153;
     margin: 0 auto;
     
+}
+
+
+
+.social-list {
+    margin-right: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
 }
 
 
